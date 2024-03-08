@@ -36,7 +36,7 @@
             </div>
             <div
                 class="nav-links duration-500 md:static absolute  md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5">
-                <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
+                <ul class="flex md:flex-row flex-col  md:gap-[10px] gap-2">
                     <li>
                         <a class="text-[#EBEBEB]" href="#">Home</a>
                     </li>
@@ -52,17 +52,32 @@
                     <li>
                         <a class="text-[#EBEBEB]" href="#">Contact us</a>
                     </li>
-                    <li>
-                        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/3adb3daa1dbef5ac55d9a2d5e9650c9dc580f4398e7114a195c439300cfc5086?apiKey=61c0f3e80dda4c65965a6acfb01a216a&"
-                            class="shrink-0 my-auto aspect-square w-[25px]"  href="#"></a>
-                    </li>
-                </ul>
+                  
+                </ul>        
+            </div>
 
-                     <div class="flex flex-row-reverse" >    
-                    <div class="pt-2 relative  text-gray-600">
-                     <input class="border-2 border-gray-300 bg-white h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none"
+            
+            
+                  
+
+            
+
+            <div class=" flex flex-row absolute top-10 right-[100px] ">
+
+                    <div>
+                        <ul class="pr-[13px] pt-3 ">
+                            <li class=""><a href="">
+                            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/3adb3daa1dbef5ac55d9a2d5e9650c9dc580f4398e7114a195c439300cfc5086?apiKey=61c0f3e80dda4c65965a6acfb01a216a&"
+                                    class="shrink-0 w-[25px]" >
+                            </a>
+                            </li>
+                            </ul>
+                            </div>
+
+            <div class="pt-2 relative  text-gray-600">
+                     <input class=" border-gray-300 bg-[#CDDEC7] h-10 px-10 pr-19 rounded-lg text-sm focus:outline-none"
                       type="search" name="search" placeholder="Search">
-                     <button type="submit" class="absolute right-0 top-0 mt-5 mr-4">
+                     <button type="submit" class="absolute left-3 top-0 mt-5 mr-4">
                      <svg class="text-gray-600 h-4 w-4 fill-current" xmlns="http://www.w3.org/2000/svg"
                        xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px"
                          viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve"
@@ -72,18 +87,14 @@
                          </svg>
                      </button>
                     </div>
-                    </div> 
-                   
-            </div>
 
-            
-
-            <div class="absolute right-1 ">
                 <button class="bg-[#87A77B] text-white px-2 py-2  hover:bg-[#87A77B]">Login</button>
                 <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
         
                 <button class="bg-black text-white px-5 py-2 rounded-full hover:bg-[#87acec]">Sign Up</button>
                 <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+
+                   
             </div>
         
     </header>
